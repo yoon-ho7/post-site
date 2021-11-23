@@ -9,9 +9,7 @@
 </head>
 <body>
     <div id="wrapper">
-        <div id="pWrite">
-            <span>작성하기</span>
-        </div>
+        <button id="pWrite">작성하기</button>
         <div id="pContainer">
             <div id="pEmpty">
                 <span>비어있음</span>
@@ -19,16 +17,20 @@
             <div id="pList">
                 <div class="post"><span>게시물 제목</span></div>
             </div>
+        </div>
+        <div id="modal">
             <div id="writeBox">
-                <div id="title"><span><b>제목을 입력해주세요.</b></span></div>
-                <div id="contents"><span><b>내용을 입력해주세요.</b></span></div>
-                <div id="write">작성</div>
+                <input id="title" type="text" placeholder="제목을 입력해주세요."></input>
+                <textarea id="contents" type="text" placeholder="내용을 입력해주세요."></textarea>
+                <button id="write">작성</button>
                 <div id="change">
-                    <div id="revise">수정</div>
-                    <div id="delete">삭제</div>
+                    <button id="revise">수정</button>
+                    <button id="delete">삭제</button>
                 </div>
             </div>
-        </div>
+       </div>
     </div>
+
+    <script = src="post.js"></script>
 </body>
 </html>
