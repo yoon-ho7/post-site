@@ -1,3 +1,8 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
 #wrapper {
   display: flex;
   align-items: center;
@@ -26,7 +31,7 @@
   border-radius: 20px;
   border-style: solid;
   border-color: #4e9f3d;
-  border-width: 1px;
+  border-width: 2px;
 }
 
 #pEmpty {
